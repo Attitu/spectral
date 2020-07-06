@@ -362,6 +362,10 @@ footer p{
 /*smal devices of max width 600px*/
  @media screen and (max-width: 600px) {
 
+ 	.items{
+	width: 55%;
+}
+
 .icons{
 	padding: 70px 0;
 	
@@ -482,9 +486,74 @@ footer p{
  footer p{
  	font-size: 15px;
  	word-spacing: 2px;
+ }  
+}
+
+@media screen and (max-width: 900px) {
+.items{
+	width: 40%;
+}
+
+img{
+	height: 100%;
+}
+
+.introduction{
+	padding: 60px 30px;
+}
+	.cards{
+ 	padding: 0;
+ }
+ 
+ .topic{
+ 	padding-left: 40px;
+ 	
  }
 
-  
+ .topic h3{
+ 	padding-left: 20px;
+ }
+
+ .p-plane p, .laptop p, .code p, .headphones p, .heart p, .flag p{
+ 	padding-left: 40px;
+ }
+
+ .partG{
+	padding: 80px 60px;
+}
+
+footer{
+	padding: 60px;
+}
+
+}
+
+@media screen and (max-width: 1200px) {
+
+.items{
+	width: 40%;
+}
+
+img{
+	height: 100%;
+}
+.introduction{
+	padding: 60px 30px;
+}
+	.cards{
+ 	padding: 0;
+ 	text-align: center;
+ }
+
+ .partG{
+	padding: 100px 60px;
+}
+
+footer{
+	padding: 80px;
+}
+
+
 }
 
  
